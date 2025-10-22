@@ -24,7 +24,8 @@ const Header: React.FC = () => {
                     <Image src={"/assets/Logo Showcase.png"} alt="alx logo" width={58} height={37} />
                 </div>
             </div>
-            <div className="flex justify-center space-x-4 border border-[#F6F6F6] rounded-full py-2 pl-8 pr-[.6875rem] w-1/3 p-4">
+            <div className="flex justify-center space-x-4 w-[737px] h-[58px] border border-[#F6F6F6] rounded-full w-1/3 p-4">
+            <div className="flex items-center">
             <div className="space-y-1 min-w-72">
                 <h6 className="text-sm">Location</h6>
                 <input
@@ -33,7 +34,6 @@ const Header: React.FC = () => {
                 className="outline-none min-w-0 text-[.8125rem]"
                 />
             </div>
-            <div className="flex items-center">
                 <div className="flex items-center gap-5 h-full">
                 <div className="w-px h-full bg-[#E9E9E9]" />
                 <div className="flex flex-col space-y-1">
@@ -72,7 +72,7 @@ const Header: React.FC = () => {
                 </div>
                 </div>
             </div>
-            <div className="space-x-2 w-1/3 p-4">
+            <div className="space-x-2 w-1/2 p-4">
             <button type="button" className="bg-[#34967C] py-3 px-7 rounded-full text-white">
                 Sign in
             </button>
