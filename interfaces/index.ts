@@ -1,7 +1,11 @@
 export interface LayoutProps {
     children: React.ReactNode;
 }
-
+export interface CategoryProps {
+    src: string;
+    alt: string; 
+    onClick?: () => void;
+}
 export interface PropertyProps {
     name: string;
     address: {

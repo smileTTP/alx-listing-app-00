@@ -1,4 +1,25 @@
 import { PropertyProps } from "@/interfaces";
+import { CategoryProps } from "@/interfaces";
+
+export const CATEGORIES: CategoryProps[] = [
+  { src: "/assets/categories/rooms.svg", alt: "Rooms" },
+  { src: "/assets/categories/mansion.svg", alt: "Mansion" },
+  { src: "/assets/categories/countryside.svg", alt: "Countryside" },
+  { src: "/assets/categories/villa.svg", alt: "Villa" },
+  { src: "/assets/categories/tropical.svg", alt: "Tropical" },
+  { src: "/assets/categories/new.svg", alt: "New" },
+  { src: "/assets/categories/amazing-pool.svg", alt: "Amazing pool" },
+  { src: "/assets/categories/beach-house.svg", alt: "Beach house" },
+  { src: "/assets/categories/island.svg", alt: "Island" },
+  { src: "/assets/categories/camping.svg", alt: "Camping" },
+  { src: "/assets/categories/apartment.svg", alt: "Apartment" },
+  { src: "/assets/categories/house.svg", alt: "House" },
+  { src: "/assets/categories/lakefront.svg", alt: "Lakefront" },
+  { src: "/assets/categories/farmhouse.svg", alt: "Farm house" },
+  { src: "/assets/categories/tree-house.svg", alt: "Treehouse" },
+  { src: "/assets/categories/cabins.svg", alt: "Cabins" },
+  { src: "/assets/categories/castles.svg", alt: "Castles" },
+];
 
 export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
   {
